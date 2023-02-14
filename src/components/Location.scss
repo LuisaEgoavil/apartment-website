@@ -1,0 +1,16 @@
+div {
+  margin: 30px;
+
+  .google-map {
+    padding-bottom: 50%;
+    position: relative;
+
+    iframe {
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+      position: absolute;
+    }
+  }
+}
