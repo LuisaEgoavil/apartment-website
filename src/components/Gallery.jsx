@@ -1,4 +1,5 @@
 import IMAGES from '../images.js';
+import './Gallery.scss';
 
 function Gallery () {
   return (
