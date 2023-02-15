@@ -99,10 +99,6 @@ const IMAGES = [
   {
     id: 1,
     image: 'images/apartment_25.jpeg'
-  },
-  {
-    id: 1,
-    image: 'images/apartment_26.jpeg'
   }
 ]
 
