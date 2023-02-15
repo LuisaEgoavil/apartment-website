@@ -1,9 +1,12 @@
 import {useRef} from 'react';
 import {FaBars, FaTimes} from 'react-icons/fa';
-import './Navbar.scss'
+import './Navbar.scss';
+import { useTranslation } from 'react-i18next';
+import LanguageButton from '../lng/LanguageButton'
 
 function Navbar() {
 	const navRef = useRef();
+	const { t } = useTranslation();
 
 	const showNavbar = () => {
 		navRef.current.classList.toggle("responsive_nav");
@@ -13,7 +16,8 @@ function Navbar() {
 		<header>
 			<h3>NOMBRE</h3>
 			<nav ref={navRef}>
-				<a href="/home">Inicio</a>
+				<LanguageButton />
+				<a href="/home">{t('navbar.title_one')}</a>
 				<a href="/gallery">Galería</a>
 				<a href="/location">Ubicación</a>
 				<a href="/contact">Contacto</a>

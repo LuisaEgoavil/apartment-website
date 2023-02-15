@@ -1,0 +1,9 @@
+{
+  "caption": {
+    "something": "some string"
+  },
+  "navbar": {
+    "title_one": "Home",
+    "title_two": "Gallery"
+  }
+}
