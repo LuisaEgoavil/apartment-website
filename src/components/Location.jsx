@@ -1,4 +1,4 @@
-import './Location.scss'
+import './Location.scss';
 
 function Location () {
   return (
