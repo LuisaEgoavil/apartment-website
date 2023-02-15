@@ -1,7 +1,8 @@
 const IMAGES = [
   {
     id: 1,
-    image: 'images/apartment_1.jpeg'
+    image: 'images/apartment_1.jpeg',
+    description: 'first image' // TODO: add description for all images
   },
   {
     id: 1,
