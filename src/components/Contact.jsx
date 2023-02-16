@@ -13,11 +13,12 @@ function Contact() {
           <a 
             href="https://wa.me/+4917653832422" 
             target="_blank"
+            rel="noreferrer"
             className='whatsapp-logo'
             >{t('contact.whatsapp_number')}</a> 
         </p>
         <p>
-          <a href="tel:+4917653832422">{t('contact.phone_number')}</a>
+          <a href="tel:+4917653832422" target="_blank" rel="noreferrer">{t('contact.phone_number')}</a>
         </p>
       </Fade>
     </div>

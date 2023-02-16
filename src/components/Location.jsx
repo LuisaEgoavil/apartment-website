@@ -18,6 +18,7 @@ function Location () {
             style={{order:0}}
             allowfullscreen=""
             loading="lazy"
+            title="apartment-address"
             referrerpolicy="no-referrer-when-downgrade"
           >
           </iframe>
