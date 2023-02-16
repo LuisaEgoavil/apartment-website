@@ -4,6 +4,22 @@
   },
   "navbar": {
     "title_one": "Inicio",
-    "title_two": "Galería"
+    "title_two": "Galería",
+    "title_three": "Ubicación",
+    "title_four": "Contacto"
+  },
+  "contact": {
+    "whatsapp_number": "Contáctame por Whatsapp",
+    "phone_number": "Haz click aquí para llamar"
+  },
+  "gallery": {
+    "title": "Fotos del departamento"
+  },
+  "location": {
+    "title": "Ubicación",
+    "description": "El departamento de ubica cerca de ...." 
+  },
+  "home": {
+
   }
 }

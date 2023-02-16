@@ -18,9 +18,9 @@ function Navbar() {
 			<nav ref={navRef}>
 				<LanguageButton />
 				<a href="/home">{t('navbar.title_one')}</a>
-				<a href="/gallery">Galería</a>
-				<a href="/location">Ubicación</a>
-				<a href="/contact">Contacto</a>
+				<a href="/gallery">{t('navbar.title_two')}</a>
+				<a href="/location">{t('navbar.title_three')}</a>
+				<a href="/contact">{t('navbar.title_four')}</a>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>

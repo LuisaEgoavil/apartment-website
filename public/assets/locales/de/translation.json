@@ -4,6 +4,22 @@
   },
   "navbar": {
     "title_one": "Start",
-    "title_two": "Fotos"
+    "title_two": "Fotos",
+    "title_three": "Standort",
+    "title_four": "Kontakt"
+  },
+  "contact": {
+    "whatsapp_number": "per Whatsapp chatten",
+    "phone_number": "Anrufen"
+  },
+  "gallery": {
+    "title": "Wohnung Fotos"
+  },
+  "location": {
+    "title": "Standort",
+    "description": "Die Wohnung befindet sich in der Nähe von ...." 
+  },
+  "home": {
+
   }
 }

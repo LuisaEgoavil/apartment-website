@@ -4,6 +4,22 @@
   },
   "navbar": {
     "title_one": "Home",
-    "title_two": "Gallery"
+    "title_two": "Photos",
+    "title_three": "Location",
+    "title_four": "Contact"
+  },
+  "contact": {
+    "whatsapp_number": "For more info here is my Whatsapp",
+    "phone_number": "Or if you prefer to call click here"
+  },
+  "gallery": {
+    "title": "Apartment photos"
+  },
+  "location": {
+    "title": "Location",
+    "description": "The apartment is near the ...." 
+  },
+  "home": {
+
   }
 }
