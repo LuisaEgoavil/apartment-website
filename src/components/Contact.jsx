@@ -6,7 +6,7 @@ function Contact() {
   const { t } = useTranslation();
 
   return (
-    <div>
+    <div className='contact-text-container'>
       <Fade>
       {/* TODO: change the number */}
         <p>
