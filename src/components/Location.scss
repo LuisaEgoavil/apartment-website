@@ -1,13 +1,19 @@
-.google-map {
-  padding-bottom: 50%;
-  position: relative;
-  margin: 30px;
+div {
+  .location-text-container {
+    padding: 20px 30px 5px 30px;
+  }
 
-  iframe {
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    position: absolute;
+  .google-map {
+    padding-bottom: 50%;
+    position: relative;
+    margin: 30px;
+
+    iframe {
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+      position: absolute;
+    }
   }
 }
