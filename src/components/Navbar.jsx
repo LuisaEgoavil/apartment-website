@@ -17,7 +17,7 @@ function Navbar() {
 			<h3>NOMBRE</h3>
 			<nav ref={navRef}>
 				<LanguageButton />
-				<a href="/home">{t('navbar.title_one')}</a>
+				<a href="/">{t('navbar.title_one')}</a>
 				<a href="/gallery">{t('navbar.title_two')}</a>
 				<a href="/location">{t('navbar.title_three')}</a>
 				<a href="/contact">{t('navbar.title_four')}</a>

@@ -99,6 +99,18 @@ const IMAGES = [
   {
     id: 1,
     image: 'images/apartment_25.jpeg'
+  },
+  {
+    id: 1,
+    image: 'images/apartment_26.jpeg'
+  },
+  {
+    id: 1,
+    image: 'images/apartment_27.jpeg'
+  },
+  {
+    id: 1,
+    image: 'images/apartment_28.jpeg'
   }
 ]
 
