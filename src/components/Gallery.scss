@@ -1,13 +1,25 @@
-img {
-  max-width: 100%;
-  display: block; // to center the img
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1em 15em;
+// img {
+//   max-width: 100%;
+//   display: block; // to center the img
+//   margin-left: auto;
+//   margin-right: auto;
+//   padding: 1em 5em;
+// }
+
+// @media only screen and (max-width: 1024px){
+//   img {
+//     padding: 20px 50px;
+//   }
+// }
+
+.w-100 {
+  width: 100%!important;
+  padding: 1em 20em;
 }
 
 @media only screen and (max-width: 1024px){
-  img {
-    padding: 20px 50px;
+  .w-100 {
+    width: 100%!important;
+    padding: 1em 4em;
   }
-}
+  }

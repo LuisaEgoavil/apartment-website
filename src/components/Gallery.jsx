@@ -9,7 +9,7 @@ function Gallery () {
     <Fade>
       <div>
         <h3>Gallery</h3>
-        <Carousel>
+        <Carousel fade variant="dark" interval={null}>
           {IMAGES && IMAGES.map(item => (
             <Carousel.Item key={item.id}>
               <img
