@@ -1,20 +1,23 @@
+import { useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import {Helmet} from "react-helmet";
 
 function NotFound() {
+  const [counter, setCounter] = useState(5);
 
+  // Set countdown
+  useEffect(() => {
+    const timer = counter > 0 && setInterval(() => setCounter(counter - 1), 1000);
+    return () => clearInterval(timer);
+  }, [counter]);
+  
   return (
-    <>
-      <Fade>
+    <Fade>
       <Helmet>
           <title>Ooops...</title>
       </Helmet>
-        {/* TODO: add seconds for timeout */}
-        <p>oops this page doesn't exist</p>
-        {/* <h1>Redirecting in 5 seconds...</h1> */}
-        <p>Go to the homepage <a href="/">home</a></p>
-      </Fade>
-    </>
+      <p>Sorry, this page doesn't exist, it will redirect in {counter} seconds...</p>
+    </Fade>
   )
 }
 
