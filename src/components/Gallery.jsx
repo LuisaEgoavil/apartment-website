@@ -1,30 +1,32 @@
-import IMAGES from '../images.js';
+import IMAGES from '../images';
 import './Gallery.scss';
-import { useTranslation } from 'react-i18next';
 import Fade from 'react-reveal/Fade';
+import Carousel from 'react-bootstrap/Carousel';
 
 function Gallery () {
-  const { t } = useTranslation();
 
   return (
-    <div>
-      <Fade>
-        <div className='gallery-text-container'>
-          <h2>{t('gallery.title')}</h2>
-          {/* <p>{t('gallery.description')}</p> */}
-        </div>
-        <div>
-          {
-            IMAGES && IMAGES.map((item) =>
-              <div key={item.id}>
+    <Fade>
+      <div>
+        <h3>Gallery</h3>
+        <Carousel>
+          {IMAGES && IMAGES.map(item => (
+            <Carousel.Item key={item.id}>
+              <img
+                className="d-block w-100"
+                src={item.image}
+                alt=""
+              />
+              {/* TODO: check here is this is still needed after putting the text */}
+              {/* <Carousel.Caption>
+                <h3>{item.title}</h3>
                 <p>{item.description}</p>
-                <img src={item.image} className="dpt-img" alt=""/>
-              </div>
-            )
-          }
-        </div>
-      </Fade>
-    </div>
+              </Carousel.Caption> */}
+            </Carousel.Item>
+          ))}
+        </Carousel>
+      </div>
+    </Fade>
   )
 }
 
