@@ -1,6 +1,7 @@
 import './Location.scss';
 import { useTranslation } from 'react-i18next';
 import Fade from 'react-reveal/Fade';
+import {Helmet} from "react-helmet";
 
 function Location () {
   const { t } = useTranslation();
@@ -8,6 +9,9 @@ function Location () {
   return (
     <div>
       <Fade>
+      <Helmet>
+          <title>Location</title>
+      </Helmet>
         <div className='location-text-container'>
           <h2>{t('location.title')}</h2>
           <p>{t('location.description')}</p>

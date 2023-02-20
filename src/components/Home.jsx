@@ -1,8 +1,12 @@
 import Fade from 'react-reveal/Fade';
+import {Helmet} from "react-helmet";
 
 function Home() {
   return(
     <Fade>
+      <Helmet>
+          <title>Home</title>
+      </Helmet>
       <div>
         <p>Hola a todos, me gustaría ofrecer 3 habitaciones que tengo disponibles en un departamento en un 4to piso de un edificio moderno, se rentan amuebadas por noche, semana o semestre.</p>
         <p>Cada haitación tiene lo necesario para una estancia cómoda.</p>

@@ -1,12 +1,16 @@
 import './Contact.scss';
 import { useTranslation } from 'react-i18next';
 import Fade from 'react-reveal/Fade';
+import {Helmet} from "react-helmet";
 
 function Contact() {
   const { t } = useTranslation();
 
   return (
     <div className='contact-text-container'>
+      <Helmet>
+          <title>Contact</title>
+      </Helmet>
       <Fade>
       {/* TODO: change the number */}
         <p>
