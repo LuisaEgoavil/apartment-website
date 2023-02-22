@@ -5,6 +5,16 @@ import {Helmet} from "react-helmet";
 
 function Location () {
   const { t } = useTranslation();
+  //TODO: this array will be commented out for now but will be here
+  // const places = [
+  //   'location.places.list_one', 
+  //   'location.places.list_two',
+  //   'location.places.list_three',
+  //   'location.places.list_four',
+  //   'location.places.list_five',
+  //   'location.places.list_six',
+  //   'location.places.list_seven'
+  // ]
 
   return (
     <div>

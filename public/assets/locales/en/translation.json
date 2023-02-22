@@ -17,7 +17,16 @@
   },
   "location": {
     "title": "Location",
-    "description": "The apartment is near the ...." 
+    "description": "The apartment is near the ....",
+    "places": {
+      "list_one": "Av. Salaverry y San Isidro",
+      "list_two": "UPC",
+      "list_three": "Universidad del Pacífico",
+      "list_four": "ISIL",
+      "list_five": "Residencial San Felipe",
+      "list_six": "Supermercados: METRO",
+      "list_seven": "Centro comercial: Real Plaza"
+    }
   },
   "home": {
     "spaces": {

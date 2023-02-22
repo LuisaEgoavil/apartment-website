@@ -12,6 +12,15 @@ function Home() {
     'home.spaces.list_four',
     'home.spaces.list_five'
   ]
+  const places = [
+      'location.places.list_one', 
+      'location.places.list_two',
+      'location.places.list_three',
+      'location.places.list_four',
+      'location.places.list_five',
+      'location.places.list_six',
+      'location.places.list_seven'
+    ]
 
   return(
     <Fade>
@@ -29,15 +38,11 @@ function Home() {
           </ul>
         ))}
         <p>El departamento está muy bien ubicado en la Av. San Felipe, Jesús María. a 10 min caminando de:</p>
-        <ul>
-          <li>de la Av. Salaverry y San Isidro</li>
-          <li>UPC</li>
-          <li>Universidad del Pacífico</li>
-          <li>ISIL</li>
-          <li>Residencial San Felipe</li>
-          <li>Supermercados: METRO</li>
-          <li>Centro comercial: Real Plaza</li>
-        </ul>
+        {places.map((place, index) => (
+          <ul key={index}>
+            <li>{t(place)}</li>
+          </ul>
+        ))}
         <p>El edificio cuenta con portería 24/7</p>
       </div>
     </Fade>
