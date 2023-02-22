@@ -1,6 +1,7 @@
 import Fade from 'react-reveal/Fade';
 import {Helmet} from "react-helmet";
 import { useTranslation } from 'react-i18next';
+import './Home.scss'
 
 function Home() {
   

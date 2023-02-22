@@ -11,7 +11,7 @@ function Gallery () {
       <Helmet>
           <title>Gallery</title>
       </Helmet>
-      <div>
+      <div className='gallery-text-container'>
         <h3>Gallery</h3>
         <Carousel fade variant="dark" interval={null}>
           {IMAGES && IMAGES.map(item => (
