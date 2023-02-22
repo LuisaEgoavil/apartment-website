@@ -13,13 +13,13 @@ function Home() {
     'home.spaces.list_five'
   ]
   const places = [
-      'location.places.list_one', 
-      'location.places.list_two',
-      'location.places.list_three',
-      'location.places.list_four',
-      'location.places.list_five',
-      'location.places.list_six',
-      'location.places.list_seven'
+    'location.places.list_one', 
+    'location.places.list_two',
+    'location.places.list_three',
+    'location.places.list_four',
+    'location.places.list_five',
+    'location.places.list_six',
+    'location.places.list_seven'
     ]
 
   return(
