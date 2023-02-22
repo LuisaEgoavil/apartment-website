@@ -6,7 +6,7 @@ import Location from "./components/Location";
 import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
-import NotFound from "./components/NotFound";
+import NotFoundTwo from "./components/NotFound";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Route path="/location" element={<Location />}></Route>
         <Route path="/gallery" element={<Gallery />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
-        <Route path="*" element={<NotFound />}></Route>
+        <Route path="*" element={<NotFoundTwo />}></Route>
       </Routes>
     </div>
   );
