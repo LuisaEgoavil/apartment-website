@@ -1,0 +1,14 @@
+div {
+  padding-bottom: 10px;
+
+  svg {
+    font-size: 23px;
+    margin-right: 10px;
+  }
+  a {
+    color: #000000;
+    &:hover {
+      color: red
+    }
+  }
+}
