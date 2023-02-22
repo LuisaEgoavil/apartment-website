@@ -1,7 +1,18 @@
 import Fade from 'react-reveal/Fade';
 import {Helmet} from "react-helmet";
+import { useTranslation } from 'react-i18next';
 
 function Home() {
+  
+  const { t } = useTranslation();
+  const spaces = [
+    'home.spaces.list_one', 
+    'home.spaces.list_two',
+    'home.spaces.list_three',
+    'home.spaces.list_four',
+    'home.spaces.list_five'
+  ]
+
   return(
     <Fade>
       <Helmet>
@@ -12,13 +23,11 @@ function Home() {
         <p>Cada haitación tiene lo necesario para una estancia cómoda.</p>
         <p>El edificio tiene una hermosa terraa donde se puede tomar sol y/o hacer una parrillada/asado</p>
         <p>El departamento consta de:</p>
-        <ul>
-          <li>Cocina</li>
-          <li>Sala comedor</li>
-          <li>Terraza o balcón</li>
-          <li>Lavandería</li>
-          <li>2 banios</li>
-        </ul>
+        {spaces.map((space, index) => (
+          <ul key={index}>
+            <li>{t(space)}</li>
+          </ul>
+        ))}
         <p>El departamento está muy bien ubicado en la Av. San Felipe, Jesús María. a 10 min caminando de:</p>
         <ul>
           <li>de la Av. Salaverry y San Isidro</li>

@@ -20,6 +20,12 @@
     "description": "The apartment is near the ...." 
   },
   "home": {
-
+    "spaces": {
+      "list_one": "Kitchen",
+      "list_two": "Living room",
+      "list_three": "Balcony",
+      "list_four": "Laundry room",
+      "list_five": "2 bathrooms"
+    }
   }
 }

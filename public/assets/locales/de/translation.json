@@ -20,6 +20,12 @@
     "description": "Die Wohnung befindet sich in der Nähe von ...." 
   },
   "home": {
-
+    "spaces": {
+      "list_one": "Küche",
+      "list_two": "Wohnzimmer",
+      "list_three": "Balkon",
+      "list_four": "Waschküche",
+      "list_five": "2 Toiletten"
+    }
   }
 }

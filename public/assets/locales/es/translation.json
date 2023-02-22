@@ -20,6 +20,12 @@
     "description": "El departamento de ubica cerca de ...." 
   },
   "home": {
-
+    "spaces": {
+      "list_one": "Cocina",
+      "list_two": "Sala comedor",
+      "list_three": "Terraza o balcón",
+      "list_four": "Lavandería",
+      "list_five": "2 baños"
+    }
   }
 }
